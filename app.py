@@ -29,12 +29,13 @@ ASIGNACIONES = {
     10: "Ana madre",
     11: "Rodri",
     12: "Jorge padre",
-    13: "Isabel",
+    13: "Isabela",
     14: "Manu",
     15: "Carmen",
     16: "Ana hija",
     17: "Isa",
     18: "Pitu",
+    19: "Dori",
 }
 
 st.markdown("---")
@@ -42,7 +43,7 @@ st.markdown("---")
 numero = st.number_input(
     "Introduce tu número (entero):",
     min_value=1,
-    max_value=18,
+    max_value=19,
     step=1,
     format="%d"
 )
